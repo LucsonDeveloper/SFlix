@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Mobile_Verification_Activity">
+    tools:context=".Activity.Mobile_Verification_Activity">
 
     <ScrollView
         android:layout_width="match_parent"

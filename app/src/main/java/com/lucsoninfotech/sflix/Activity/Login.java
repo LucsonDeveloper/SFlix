@@ -1,4 +1,4 @@
-package com.lucsoninfotech.sflix;
+package com.lucsoninfotech.sflix.Activity;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,13 +9,15 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import com.lucsoninfotech.sflix.R;
+
+public class Login extends AppCompatActivity implements View.OnClickListener {
     private final Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         Button btn_facebook = findViewById(R.id.btn_facebook);
         Button btn_gmail = findViewById(R.id.btn_gmail);
         Button btn_twitter = findViewById(R.id.btn_twitter);
