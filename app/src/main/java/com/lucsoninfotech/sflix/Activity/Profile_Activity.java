@@ -1,7 +1,7 @@
 package com.lucsoninfotech.sflix.Activity;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 
 import com.lucsoninfotech.sflix.R;
 

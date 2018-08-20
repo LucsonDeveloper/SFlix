@@ -110,4 +110,10 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="followers">Followers</string>
     <string name="following">Following</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="name">Name</string>
+    <string name="website">Website</string>
+    <string name="bio">Bio</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
 </resources>

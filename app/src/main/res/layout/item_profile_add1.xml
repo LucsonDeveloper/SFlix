@@ -95,7 +95,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_16sp"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="@dimen/_5dp">
@@ -105,7 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/edit_profile"
-             android:textColor="@color/colorAccent"
+            android:textColor="@color/colorAccent"
             android:textSize="@dimen/_16sp"
             android:textStyle="bold" />
     </LinearLayout>
