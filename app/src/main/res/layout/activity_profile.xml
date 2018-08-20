@@ -58,9 +58,7 @@
                     android:textSize="@dimen/_16sp"
                     android:textStyle="bold" />
 
-                <android.support.v7.widget.RecyclerView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                <include layout="@layout/recyclerview_all" />
 
                 <include layout="@layout/item_profile_add2" />
             </LinearLayout>
