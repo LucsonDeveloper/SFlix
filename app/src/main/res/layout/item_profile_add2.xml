@@ -37,6 +37,5 @@
 
     </LinearLayout>
 
-    <include
-        layout="@layout/recyclerview_all"/>
+    <include layout="@layout/recyclerview_all" />
 </LinearLayout>

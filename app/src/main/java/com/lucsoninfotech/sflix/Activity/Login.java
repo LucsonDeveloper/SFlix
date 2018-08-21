@@ -1,6 +1,7 @@
 package com.lucsoninfotech.sflix.Activity;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,6 +12,8 @@ import android.widget.EditText;
 import com.lucsoninfotech.sflix.R;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
+    Context context = this;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +34,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_flix:
-                final Dialog dialog = new Dialog(getApplicationContext());
+                final Dialog dialog = new Dialog(context);
                 dialog.setContentView(R.layout.custom_mobile_login);
                 dialog.setTitle("Login Using" + getString(R.string.app_name));
                 // set the custom dialog components - text, image and button
@@ -46,7 +49,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         if (Mobile.equals("")) {
                             mobile.setError(getString(R.string.error_mobile_number));
                         } else {
-                            VerifyMobile(Mobile);
+                           // VerifyMobile(Mobile);
+                            dialog.dismiss();
                         }
                         //                dialog.dismiss();
                     }

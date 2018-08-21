@@ -34,7 +34,7 @@
             android:label="@string/title_activity_main" />
         <activity
             android:name=".Activity.Profile_Activity"
-            android:label="@string/title_activity_profile_"></activity>
+            android:label="@string/title_activity_profile_" />
     </application>
 
 </manifest>

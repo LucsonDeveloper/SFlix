@@ -8,8 +8,9 @@
     tools:context=".Activity.MainActivity">
 
 
-    <include layout="@layout/recyclerview_all"
+    <include
         android:id="@+id/recycler_view"
+        layout="@layout/recyclerview_all"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
